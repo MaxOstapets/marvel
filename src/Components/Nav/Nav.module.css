@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(178, 18, 18, 1), rgba(106, 73, 73, 0));
+}
+
+ul{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    gap: 52px;
+    color: white;
+}
+
+.link{
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+}
+
+.title{
+    font-family: Oswald, sans-serif;
+    font-size: 70px;
+    color: rgba(255, 0, 0, 1);
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 255px 0 316px;
+}
+
+.icon{
+    width: 30px;
+    margin: 30px;
+}
+
+.signUp{
+    font-size: 20px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+}
