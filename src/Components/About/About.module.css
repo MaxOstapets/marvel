@@ -7,7 +7,6 @@
     justify-content: center;
     flex-direction: column;
     font-family: Oswald, sans-serif;
-    margin: 0 0 0 80px;
 }
 
 h1{
@@ -16,4 +15,12 @@ h1{
 
 h2{
     font-size: 45px;
+}
+
+.info{
+    font-family: Oswald, sans-serif;
+    font-size: 25px;
+    color: white;
+    width: 395px;
+    margin: 0 0 22px 0;
 }

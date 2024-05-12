@@ -1,12 +1,10 @@
 import styles from './Movies.module.css'
-import Nav from '../../Components/Nav/Nav';
-import About from '../../Components/About/About';
+import Layout from '../../Components/Layout/Layout';
 
 const MoviesPage = () => {
     return(
         <>
-            <Nav/>
-            <About title = "Avengers" secondTitle = "Endgame"/>
+            <Layout />
         </>
     )
 }
