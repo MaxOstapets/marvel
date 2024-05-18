@@ -1,11 +1,14 @@
+import { NavLink, useLocation } from 'react-router-dom';
 import styles from './Nav.module.css'
 
 const Nav = () => {
+    const {pathname} = useLocation()
+
     return(
         <nav>
             <ul>
-                <li className={styles.link}>Movies</li>
-                <li className={styles.anotherPage}>TV Shows</li>
+                <NavLink to="/" className={pathname === '/' ? styles.link : styles.anotherPage}>Movies</NavLink>
+                <NavLink to="/tvshows" className={pathname === '/tvshows' ? styles.link : styles.anotherPage}>TV Shows</NavLink>            
             </ul>
             
             <div className={styles.titles}>

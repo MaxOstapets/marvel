@@ -6,6 +6,7 @@ const PageRoutes = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<MoviesPage />} />
+                <Route path="/tvshows" element={<MoviesPage />} />
             </Routes>
         </Router>
     );

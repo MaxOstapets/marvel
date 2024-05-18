@@ -3,17 +3,18 @@ import Nav from '../Nav/Nav'
 import About from '../About/About'
 import Stars from '../Stars/Stars'
 import Buttons from '../Buttons/Buttons'
+import SlideShow from '../SlideShow/SlideShow'
 
-const Layout = () => {
-    const info = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices eu luctus risus at. Integer ante imperdiet ac donec ornare ac laoreet a."
+const Layout = (props) => {    
     return(
         <>
             <Nav />
-            
+
             <div className={styles.section}>
-                <About title = "Avengers" secondTitle = "Endgame" about = {info}/>
+                <About title = {props.title} secondTitle = {props.secondTitle} about = {props.about}/>
                 <Stars />
                 <Buttons />
+                <SlideShow src = {props.link}/>
             </div>
         </>
     )
